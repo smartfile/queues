@@ -17,7 +17,13 @@ This library is designed to be configured either from a Django settings file or 
 
 * Memcached is not supported for queueing. You must use a queue server that is compatible with the memcached protocol such as MemcacheQ etc.
 
-**Example usage:**
+
+###Installation
+```
+pip install git+https://github.com/smartfile/queues.git#egg=queues
+```
+
+###Example usage:
 
 ```
 $ export QUEUE_BACKEND=memcached
